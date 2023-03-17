@@ -1,3 +1,5 @@
+print(4.00/(2.00+2.00))
+
 quanto_voce_ganha_por_hora = input('Quanto voce ganha por hora ?\n')
 quantas_horas_voce_trabalhou = input('Quanto voce trabalhou?\n')
 
