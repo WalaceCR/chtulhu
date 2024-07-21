@@ -1,0 +1,90 @@
+Pasta dedicada a anotações para a certificação developer da AWS
+
+==============================Dia 21/07==============================
+
+Curso vai apresentar 30 serviços
+
+O que é a AWS?
+
+- É uma empresa que provê serviços e infra na nuvem para outras empresaas de TI pelo mundo;
+- Uso sob demanda e que provê maior escalabilidade das aplicações.
+
+História 
+
+- Em 2002, a AWS viu que tinha um case muito bom para o mercado então começaram a externalizar
+seus serviços, começando pelo SQS.
+
+- Em 2007, lançou na Europa e depois empresas como Netflix, Dropbox começaram a consumir esses serviços.
+
+    • In 2019, AWS had $35.02
+    billion in annual revenue
+    • AWS accounts for 47% of the
+    market in 2019 (Microsoft is
+    2nd with 22%)
+    • Pioneer and Leader of the
+    AWS Cloud Market for the
+    9th consecutive year
+    • Over 1,000,000 active users
+
+    AWS enables you to build sophisticated, scalable applications
+    • Applicable to a diverse set of industries
+    • Use cases include
+    • Enterprise IT, Backup & Storage, Big Data analytics
+    • Website hosting, Mobile & Social Apps
+    • Gaming
+
+    Including Mcdonalds, Activision, Fox and etcetera
+
+
+Regiões e AZs (Zonas de disponibilidade ou Availability Zones)
+
+    • AWS Regions 
+    • AWS Availability Zones 
+    • AWS Data Centers 
+    • AWS Edge Locations / Points of Presence
+    • https://infrastructure.aws/
+
+
+AWS Regions 
+    • AWS has Regions all around the world 
+    • Names can be us-east-1, eu-west-3… 
+    • A region is a cluster of data centers 
+    • Most AWS services are region-scoped
+
+If you need to launch a new application,
+where should you do it?
+
+    • Compliance with data governance and legal
+    requirements: data never leaves a region without
+    your explicit permission
+    • Proximity to customers: reduced latency
+    • Available services within a Region: new services
+    and new features aren’t available in every Region
+    • Pricing: pricing varies region to region and is
+    transparent in the service pricing page
+
+AWS Availability Zones
+    • Each region has many availability zones
+    (usually 3, min is 3, max is 6). Example:
+    • ap-southeast-2a
+    • ap-southeast-2b
+    • ap-southeast-2c
+    • Each availability zone (AZ) is one or more
+    discrete data centers with redundant power,
+    networking, and connectivity
+    • They’re separate from each other, so that
+    they’re isolated from disasters
+    • They’re connected with high bandwidth,
+    ultra-low latency networking
+
+RESUMO DA ÓPERA:
+    UMA REGIÃO DEVE POSSUIR PELO MENOS 3 ZONAS DE disponibilidade(availability zone) e no máximo 6
+        São Paulo tem 3
+    Pesquisar por infra estrutura global da aws no google > Regiões e AZs
+        Também olhar serviços por região
+
+
+AWS Points of Presence (Edge Locations)
+    • Amazon has 400+ Points of Presence (400+ Edge Locations & 10+
+    Regional Caches) in 90+ cities across 40+ countries
+    • Content is delivered to end users with lower latency
