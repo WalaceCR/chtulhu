@@ -1,0 +1,19 @@
+25/07
+
+IAM ainda
+    - Dicas de como criar politicas eficazes de segurança no IAM:
+        -- Senhas fortes;
+            --- Letras, numeros, caracteres;
+            --- Senhas antigas não permitidas.
+    - MFA
+        -- Microsoft Authenticator Ou a autenticação do google;
+        -- Yubico (pendrive físico) como uma chave;
+        -- Para acesso pelo governo (exemplo o USA), temos o govcloud.
+
+
+Como usuários acessam a aws
+    - Management console (site normal);
+    - Aws CLI (COmmand Line Interface);
+    - Aws SDK.
+
+    - Sua aplicação acessará o AWS SDK, esta possui suporte para N linguagens
