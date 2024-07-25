@@ -1,0 +1,15 @@
+A função lambda gerenciar_jogos aceita quatro parâmetros:
+
+acao: uma string que especifica a ação a ser executada ('adicionar' ou 'deletar').
+dicionario: o dicionário de jogos que queremos modificar.
+chave: a chave do jogo que queremos adicionar ou excluir.
+valor (opcional): o valor associado à chave, usado apenas na operação de adição.
+Aqui está como você pode usar essa função lambda para adicionar e deletar itens do dicionário de jogos:
+
+Neste exemplo, definimos três testes usando o pytest:
+
+test_adicionar_jogo: verifica se um jogo pode ser adicionado corretamente ao dicionário.
+test_deletar_jogo: verifica se um jogo pode ser deletado corretamente do dicionário.
+test_adicionar_e_deletar: testa a funcionalidade completa de adicionar e depois deletar um jogo do dicionário.
+Para rodar os testes, salve o código acima em um arquivo (por exemplo, test_lambda.py) e execute-o com o pytest:
+
