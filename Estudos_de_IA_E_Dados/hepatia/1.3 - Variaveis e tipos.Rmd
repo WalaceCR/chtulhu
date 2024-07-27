@@ -1,0 +1,93 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+```{r}
+plot(cars)#CARS é um objeto nativo do R para testes
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+
+```{r}
+#Variáveis
+
+nome = "Walace"
+nome2 <- "Walace 2"
+
+class(nome)#retorna o tipo no caso Character
+class(nome2)#idem
+
+nome #retorna o valor
+nome2 #idem
+
+numero1 = 8
+numero2 = 8L
+
+class(numero1) #numeric
+class(numero2) #integer
+
+numero1
+numero2
+
+```
+---
+Formação Cientista de Dados - Prof. Fernando Amaral
+Tipos de Dados e Operadores
+---
+
+```{r}
+#declaração implicita numérico
+delta = 8
+class(delta)
+```
+L declara como inteiro
+```{r}
+delta = 8L
+class(delta)
+```
+Outros tipos
+```{r}
+logico = TRUE
+logico = F
+caractere = "Texto"
+caractere = 'Texto'
+class(caractere)
+class(logico)
+logico
+caractere
+
+```
+Operações Matemáticas
+```{r}
+c = 2
+d = 4
+(c + d) * d
+e = (c + d) * d
+e
+```
+Testes lógicos
+```{r}
+a = 1
+b = 2
+a < b
+a == b
+
+```
+Raiz Quadrada
+```{r}
+sqrt(2500)
+```
+```{r}
+sum(3, 7, 69)
+exp(30)
+```
+

@@ -1,0 +1,4 @@
+AWS CLI
+Instalação do app no Windows
+Verificação da versão
+Instalou python tambem

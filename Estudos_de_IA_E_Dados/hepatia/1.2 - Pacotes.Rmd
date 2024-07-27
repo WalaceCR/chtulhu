@@ -1,0 +1,41 @@
+---
+Formação Cientista de Dados - Prof. Fernando Amaral
+Pacotes
+---
+
+```{r}
+#instalar pacote
+install.packages("e1071")
+#importar pacote
+library(e1071)
+
+```
+
+```{r}
+#decarregar pacote
+detach("package:e1071", unload=TRUE)
+#remover
+remove.packages("e1071")
+```
+
+```{r}
+plot(iris[,1:4])
+```
+
+```{r}
+install.packages("arules", dependencies=TRUE)
+library(arules)
+#manipulação da memória, removo a library da memória
+detach("package:arules",unload=TRUE)
+
+#Caminho do arquivo
+getwd()
+
+setwd("C:\\Users\\Public\\Area_51\\Projetitos\\chtulhu\\hepatia")
+
+getwd()
+
+
+quit()
+```
+
