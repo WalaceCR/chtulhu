@@ -1,0 +1,8 @@
+IAM - Permissionamento e controle de usuários e serviços
+Xray - Análise e debug das aplicações integrado com o Cloudwatch
+    -- Usa o IAM para controle de usuários
+    -- KMS para encriptar infos
+    -- Compatibilidade com outros serviços features
+        • AWS Lambda • Elastic Beanstalk • ECS • ELB • API Gateway • EC2 Instances or any application server (even on premise)
+    -- Para suas apps utilizarem ele, basta importar o AWS Sdk do Xray
+Cloudformation - Criar aplicações e templates de apps
